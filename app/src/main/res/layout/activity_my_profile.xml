@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/profile_pix"
+        android:src="@drawable/mahone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:padding="18dp"
+        android:id="@+id/profile_name"
+        android:textAlignment="center"
+        tools:text="@string/profile_name" />
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/track"
+        android:fontFamily="@font/aclonica"
+        tools:text="@string/track"
+        android:padding="18dp"
+        android:layout_marginTop="15sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:fontFamily="@font/aclonica"
+        android:padding="18dp"
+        tools:text="@string/Country"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:id="@+id/email"
+        android:fontFamily="@font/aclonica"
+        tools:text="@string/email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:id="@+id/phone_number"
+        android:padding="18dp"
+        tools:text="@string/phone_number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slack"
+        tools:text="@string/slack_username"
+        android:fontFamily="@font/aclonica"
+        android:padding="18dp" />
+
+</LinearLayout>

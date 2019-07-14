@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ALC 4.0</string>
+
+    <string name="welcome_to_ALC">Welcome to ALC 4.0</string>
+
+    <string name="about_ALC">ABOUT ALC</string>
+
+    <string name="my_profile">MY PROFILE</string>
+
+    <string name="label_text">ALC 4 PHASE 1</string>
+    
+    <string name="profile_name">Odumosu Babatunde</string>
+
+    <string name="profile_pix">Profile picture</string>
+    
+    <string name="track">Track: Android</string>
+    
+    <string name="Country">Country: Nigeria</string>
+    
+    <string name="email">Email: odumosupeter1@yahoo.com</string>
+
+    <string name="phone_number">Phone number: +2347053788154</string>
+    
+    <string name="slack_username">Slack Username: @Peter</string>
+    
+
+
+</resources>
